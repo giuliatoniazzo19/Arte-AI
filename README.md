@@ -1,6 +1,6 @@
 # ArteAI · Un'intelligenza artificiale davanti a un quadro
 
-*Progetto per il corso  · [Giulia Toniazzo]*
+*Progetto per il corso  · [Giulia Toniazzo Mat.76827A]*
 
 Che cosa vede un'intelligenza artificiale davanti a un quadro? E quanto cambia la sua lettura se le diamo un titolo, un autore o un contesto, veri o falsi?
 

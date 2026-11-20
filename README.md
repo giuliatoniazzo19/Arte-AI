@@ -52,7 +52,6 @@ Risultati, grafici ed esempi sono nel notebook.
 2. Aprire **`ArteAI_progetto.ipynb`** in Google Colab.
 3. **Runtime → Esegui tutto.** Non serve la GPU e bastano pochi minuti.
 
-Non serve saper programmare: ogni cella è preceduta da un testo che spiega che cosa fa e perché.
 
 Le celle che usano i modelli sono spente (`GENERA = False`, `GIUDICA = False`), quindi il notebook legge le risposte già salvate. Per rigenerarle servono una GPU A100 e una chiave Hugging Face (`HF_TOKEN`) nei secreti di Colab.
 

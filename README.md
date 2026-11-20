@@ -49,7 +49,7 @@ Risultati, grafici ed esempi sono nel notebook.
 ## Come aprire il notebook
 
 1. Copiare la cartella in Google Drive come **`MyDrive/ArteAI`**.
-2. Aprire **`ArteAI_progetto.ipynb`** in Google Colab.
+2. Aprire **`ArteAI_Giulia-Toniazzo_Matricola_76827A.ipynb`** in Google Colab.
 3. **Runtime → Esegui tutto.** Non serve la GPU e bastano pochi minuti.
 
 

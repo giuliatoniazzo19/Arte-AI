@@ -1,6 +1,7 @@
 # ArteAI · Un'intelligenza artificiale davanti a un quadro
 
-*Progetto per il corso  · [Giulia Toniazzo Mat.76827A]*
+*Progetto ad opera di Giulia Toniazzo Mat.76827A* · 
+
 
 Che cosa vede un'intelligenza artificiale davanti a un quadro? E quanto cambia la sua lettura se le diamo un titolo, un autore o un contesto, veri o falsi?
 
@@ -17,17 +18,15 @@ L'immagine resta sempre la stessa: se la risposta cambia, è merito (o colpa) de
 
 ---
 
-## Domande di ricerca e risultati
+## Domande di ricerca
 
-| | Domanda | Che cosa abbiamo trovato |
-|---|---|---|
-| **RQ1** | Che cosa comunica un'opera a chi la guarda senza saperne nulla? | Gemma descrive soprattutto **dove stanno le cose** (29% delle frasi, contro l'11% del museo). Riconosce **6 opere iconiche su 7**, ma solo **2 poco note su 8**, e a volte inventa un autore. |
-| **RQ2** | Come cambia la lettura con titolo, autore e contesto, veri o falsi? | Le **emozioni seguono il titolo**: con un titolo falso cupo la vitalità scende dal 39% al 17%. Un **oggetto inventato** viene smentito 20 volte su 23; un **titolo falso** viene creduto 10 volte su 23. Sulle opere poco note Gemma si lascia ingannare molto di più (41% contro 14%). |
-| **RQ3** | Sa distinguere ciò che vede da ciò che interpreta? | **Solo se glielo chiediamo.** Nel testo libero mescola descrizione e interpretazione e sbaglia di più: 70% di descrizioni corrette, contro 91% con le sezioni. |
-| **RQ4** | Le sue conoscenze sono corrette o le inventa? | Quasi sempre corrette: **88%** delle descrizioni senza errori, **90%** delle risposte senza invenzioni. Gli errori nascono nel testo libero e quando un titolo suggerisce che cosa vedere. |
-| **RQ5** | Quando è un supporto affidabile all'analisi artistica, e che limiti ha rispetto alla critica umana? | È affidabile per descrivere che cosa c'è e per capire se si è lasciata ingannare (IA e persona d'accordo **43 volte su 47**). Non vede però i **dettagli fini** (posa, gesti, piccoli oggetti) e le **interpretazioni forzate**, che una persona nota. |
+1. **RQ1** · Che cosa comunica un'opera a chi la guarda senza saperne nulla?
+2. **RQ2** · Come cambia la lettura con titolo, autore e contesto, veri o falsi?
+3. **RQ3** · Il modello sa distinguere ciò che vede da ciò che interpreta?
+4. **RQ4** · Le sue conoscenze sono corrette o le inventa?
+5. **RQ5** · In quali casi un modello multimodale è un supporto affidabile all'analisi artistica, e quali sono i suoi limiti rispetto alla critica umana?
 
-> **In una frase:** l'IA vede l'immagine, ma la legge attraverso le parole che la accompagnano. Più l'opera è sconosciuta, più contano le parole.
+Risultati, grafici ed esempi sono nel notebook.
 
 ---
 
@@ -37,6 +36,7 @@ L'immagine resta sempre la stessa: se la risposta cambia, è merito (o colpa) de
 |---|---|
 | `ArteAI_progetto.ipynb` | **Il notebook**: come è stato fatto il lavoro, poi l'analisi domanda per domanda, con grafici ed esempi di risposte |
 | `ArteAI_Annotazioni_valutazione_umana.xlsx` | la valutazione a mano delle 71 risposte |
+| `catalogo_opere.xlsx` | catalogo delle opere d'arte con tutte le informazioni |
 | `data/artworks.json` | le 23 opere: dati del museo, elementi visibili, testo del museo, informazioni vere e false |
 | `runs/responses.jsonl` | le 207 risposte di Gemma |
 | `runs/giudice_v2.jsonl` | i giudizi di Qwen |

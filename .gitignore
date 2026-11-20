@@ -1,0 +1,5 @@
+# chiavi e file locali
+.env
+*.token
+.ipynb_checkpoints/
+__pycache__/
